@@ -1,0 +1,60 @@
+<section id="pricing" class="sec-pad" style="position:relative;padding:clamp(80px,12vh,140px) clamp(20px,5vw,64px);background:linear-gradient(180deg,#F5F0FA,#FAF8F5);overflow:hidden">
+    <div style="position:absolute;inset:0;background:radial-gradient(55% 60% at 50% 0%,rgba(194,164,217,.3),transparent 70%),radial-gradient(40% 50% at 85% 90%,rgba(242,162,133,.18),transparent 68%);pointer-events:none"></div>
+    <div style="position:relative;max-width:1200px;margin:0 auto">
+      <div style="text-align:center">
+        <div style="font-size:12px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#7F58A2"><%= pricing.eyebrow %></div>
+        <h2 style="font-weight:800;font-size:clamp(28px,4vw,52px);line-height:1.06;letter-spacing:-.025em;color:#2B2724;margin-top:14px;text-wrap:balance"><%= pricing.heading[0] %> <span style="background:linear-gradient(100deg,#C5613F,#7F58A2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent"><%= pricing.heading[1] %></span></h2>
+        <p style="font-size:clamp(15px,1.2vw,17px);font-weight:500;color:#5E574F;margin-top:14px;max-width:50ch;margin-left:auto;margin-right:auto;line-height:1.6"><%= pricing.subheading %></p>
+      </div>
+
+      <div class="pricing-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,1.6vw,18px);margin-top:clamp(40px,6vh,60px)">
+        <% pricing.plans.forEach(function(plan) {
+             var inlineCadence = (plan.cadence === '/mo') ? plan.cadence : '';
+             var subline = plan.overage || (plan.cadence !== '/mo' ? plan.cadence : '');
+        %>
+        <% if (plan.featured) { %>
+        <div style="position:relative;background:linear-gradient(152deg,rgba(255,255,255,.9),rgba(255,255,255,.74));border:1.5px solid rgba(242,162,133,.4);backdrop-filter:blur(26px) saturate(150%);-webkit-backdrop-filter:blur(26px) saturate(150%);border-radius:24px;padding:clamp(20px,2.6vw,32px);box-shadow:0 24px 64px rgba(86,64,110,.18),0 0 0 1px rgba(242,162,133,.15),inset 0 1px 0 rgba(255,255,255,.85);display:flex;flex-direction:column;z-index:2">
+          <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:linear-gradient(98deg,#F2A285,#C2A4D9);padding:5px 13px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 16px rgba(86,64,110,.22)"><%= plan.badge %></div>
+          <div style="font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;background:linear-gradient(98deg,#C5613F,#7F58A2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent"><%= plan.name %></div>
+          <div style="margin-top:10px;display:flex;align-items:baseline;gap:4px"><span style="font-size:clamp(30px,3.2vw,42px);font-weight:800;letter-spacing:-.03em;color:#2B2724"><%= plan.price %></span><% if (inlineCadence) { %><span style="font-size:12.5px;font-weight:600;color:#6E6862"><%= inlineCadence %></span><% } %></div>
+          <div style="font-size:12.5px;font-weight:500;color:#6E6862;margin-top:4px"><%= subline %></div>
+          <div style="margin-top:18px;height:1px;background:linear-gradient(90deg,rgba(242,162,133,.35),rgba(194,164,217,.35))"></div>
+          <ul style="margin-top:18px;display:flex;flex-direction:column;gap:10px;list-style:none;padding:0;flex:1">
+            <% plan.features.forEach(function(f) { %>
+            <li style="display:flex;align-items:flex-start;gap:9px;font-size:13px;font-weight:500;color:#3A3531;line-height:1.4"><span style="flex:none;width:16px;height:16px;border-radius:50%;background:linear-gradient(135deg,rgba(242,162,133,.2),rgba(194,164,217,.2));display:flex;align-items:center;justify-content:center;margin-top:1px"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#C5613F" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"></path></svg></span><%= f %></li>
+            <% }); %>
+          </ul>
+          <a href="#" data-action="openContactModal" style="margin-top:22px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:linear-gradient(98deg,#F2A285,#C2A4D9);border-radius:999px;padding:14px;text-decoration:none;box-shadow:0 10px 26px rgba(234,142,110,.3);transition:transform .4s var(--ease-out),box-shadow .4s var(--ease-out)" style-hover="transform:translateY(-2px);box-shadow:0 14px 36px rgba(234,142,110,.42)" style-active="transform:scale(.97)"><%= plan.cta %><span style="font-size:14px">&rarr;</span></a>
+        </div>
+        <% } else { %>
+        <div style="background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);backdrop-filter:blur(20px) saturate(130%);-webkit-backdrop-filter:blur(20px) saturate(130%);border-radius:24px;padding:clamp(20px,2.6vw,32px);box-shadow:0 14px 40px rgba(86,64,110,.09);display:flex;flex-direction:column">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#948D86"><%= plan.name %></div>
+          <div style="margin-top:10px;display:flex;align-items:baseline;gap:4px"><span style="font-size:clamp(30px,3.2vw,42px);font-weight:800;letter-spacing:-.03em;color:#2B2724"><%= plan.price %></span><% if (inlineCadence) { %><span style="font-size:12.5px;font-weight:600;color:#6E6862"><%= inlineCadence %></span><% } %></div>
+          <div style="font-size:12.5px;font-weight:500;color:#6E6862;margin-top:4px"><%= subline %></div>
+          <div style="margin-top:18px;height:1px;background:rgba(150,141,134,.13)"></div>
+          <ul style="margin-top:18px;display:flex;flex-direction:column;gap:10px;list-style:none;padding:0;flex:1">
+            <% plan.features.forEach(function(f) { %>
+            <li style="display:flex;align-items:flex-start;gap:9px;font-size:13px;font-weight:500;color:#3A3531;line-height:1.4"><span style="flex:none;width:16px;height:16px;border-radius:50%;background:rgba(197,97,63,.1);display:flex;align-items:center;justify-content:center;margin-top:1px"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#C5613F" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"></path></svg></span><%= f %></li>
+            <% }); %>
+          </ul>
+          <a href="#" data-action="openContactModal" style="margin-top:22px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2B2724;background:rgba(255,255,255,.7);border:1px solid rgba(150,141,134,.24);border-radius:999px;padding:13px;text-decoration:none;transition:background .3s,border-color .3s" style-hover="background:rgba(255,255,255,.95)" style-active="transform:scale(.97)"><%= plan.cta %></a>
+        </div>
+        <% } %>
+        <% }); %>
+      </div>
+
+      <div style="margin-top:clamp(16px,2vw,22px);background:linear-gradient(110deg,#2B2724 0%,#3A3330 55%,#2B2724 100%);border-radius:24px;padding:clamp(26px,3.5vw,44px);box-shadow:0 28px 70px rgba(43,39,36,.26);display:flex;align-items:center;justify-content:space-between;gap:clamp(20px,4vw,50px);flex-wrap:wrap">
+        <div style="flex:1;min-width:220px">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;background:linear-gradient(98deg,#F2A285,#C2A4D9);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent"><%= pricing.enterprise.name %></div>
+          <div style="font-size:clamp(26px,3.2vw,40px);font-weight:800;letter-spacing:-.025em;color:#FAF8F5;margin-top:8px;line-height:1.1"><%= pricing.enterprise.price %></div>
+          <div style="font-size:14px;font-weight:500;color:rgba(250,248,245,.5);margin-top:8px"><%= pricing.enterprise.subtitle %></div>
+        </div>
+        <div style="flex:2;min-width:220px;display:flex;flex-wrap:wrap;gap:10px 28px">
+          <% pricing.enterprise.features.forEach(function(f) { %>
+          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;font-weight:500;color:rgba(250,248,245,.7);width:calc(50% - 14px);min-width:160px"><span style="flex:none;font-size:11px;margin-top:1px;background:linear-gradient(98deg,#F2A285,#C2A4D9);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">&#10022;</span><%= f %></div>
+          <% }); %>
+        </div>
+        <a href="#" data-action="openModal" style="flex:none;display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2B2724;background:#FAF8F5;border-radius:999px;padding:15px 28px;text-decoration:none;box-shadow:0 12px 30px rgba(0,0,0,.25);transition:transform .4s var(--ease-out)" style-hover="transform:translateY(-2px)" style-active="transform:scale(.97)"><%= pricing.enterprise.cta %><span style="font-size:14px">&rarr;</span></a>
+      </div>
+    </div>
+  </section>

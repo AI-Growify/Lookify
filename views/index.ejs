@@ -1,0 +1,17 @@
+<%# ===========================================================================
+     View: index
+     Composes the landing page from section partials. Each partial receives the
+     full content model (locals) made available by the page controller.
+     Order matches the original page: nav -> hero -> showcase -> metrics ->
+     how -> about -> pricing -> cta/footer -> modals.
+=========================================================================== %>
+<%- include('partials/_nav') %>
+<%- include('partials/_hero') %>
+<%- include('partials/_showcase') %>
+<%- include('partials/_metrics') %>
+<%- include('partials/_how') %>
+<%- include('partials/_about') %>
+<%- include('partials/_pricing') %>
+<%- include('partials/_cta') %>
+<%- include('partials/_modal-demo') %>
+<%- include('partials/_modal-contact') %>

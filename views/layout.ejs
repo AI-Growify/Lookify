@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= brand.name %> &mdash; <%= brand.tagline %></title>
+  <meta name="description" content="<%= brand.name %>: <%= brand.tagline %>. Help shoppers see how products look on them before they buy.">
+
+  <!-- Fonts are self-hosted under /public/fonts and declared in tokens.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Design tokens, typography, base reset and responsive utilities -->
+  <link rel="stylesheet" href="/css/tokens.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" href="/images/apple-icon-114x114.png">
+</head>
+<body>
+  <div style="position:relative;background:#FAF8F5;overflow:hidden">
+<%- body %>
+  </div>
+
+  <!-- Client controller: wires data-ref / data-action hooks to the interactions -->
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

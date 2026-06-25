@@ -1,0 +1,1184 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* ============================================================
+   LOOKIFY — FONTS
+   Typeface: Urbanist (Google Fonts). Weights 400–800.
+   NOTE: substitution flag — these load from Google Fonts CDN.
+   If you have licensed Urbanist files, drop them in /assets/fonts
+   and replace this @import with local @font-face rules.
+   ============================================================ */
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/e6f17d59-b9fa-4a77-9d8c-9cd990ae2700.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f353cc74-4bfd-4270-ba9d-3895458be891.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/a4bfcce2-ccd6-4d1e-9bb6-d69234c57275.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/b7df43c7-46ab-4fdc-b969-ab1fe9fbbb97.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/8f15dd7d-9998-482f-a9d4-0c3d18787497.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f739ff32-d5ba-4350-be95-17517b2ab0b6.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/e6f17d59-b9fa-4a77-9d8c-9cd990ae2700.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f353cc74-4bfd-4270-ba9d-3895458be891.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/a4bfcce2-ccd6-4d1e-9bb6-d69234c57275.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/b7df43c7-46ab-4fdc-b969-ab1fe9fbbb97.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/8f15dd7d-9998-482f-a9d4-0c3d18787497.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f739ff32-d5ba-4350-be95-17517b2ab0b6.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/* ============================================================
+   LOOKIFY — COLOR TOKENS
+   Warm, luxe palette: peach-coral → lavender signature gradient,
+   warm near-black ink on soft warm neutrals.
+   ============================================================ */
+
+:root {
+  /* --- Brand: signature gradient endpoints --- */
+  --coral-50:  #FEF4EF;
+  --coral-100: #FCE5D9;
+  --coral-200: #F8CBB6;
+  --coral-300: #F4B095;
+  --coral-400: #F2A285;   /* hero "Luxury" — primary coral */
+  --coral-500: #EA8E6E;
+  --coral-600: #DE7855;
+  --coral-700: #C5613F;
+
+  --lavender-50:  #F6F1FA;
+  --lavender-100: #ECE2F3;
+  --lavender-200: #DCC9E9;
+  --lavender-300: #CBB0DE;
+  --lavender-400: #C2A4D9;   /* hero "Brands" — primary lavender */
+  --lavender-500: #AE8BCB;
+  --lavender-600: #9A73BC;
+  --lavender-700: #7F58A2;
+
+  /* --- Warm neutral ink ramp (text + structure) --- */
+  --ink-900: #2B2724;   /* headings — warm near-black */
+  --ink-800: #3A3531;
+  --ink-700: #4A443F;
+  --ink-600: #5E574F;
+  --ink-500: #6E6862;   /* body copy */
+  --ink-400: #948D86;   /* muted / captions */
+  --ink-300: #C4BDB6;   /* disabled text, hairlines */
+  --ink-200: #E4DED8;   /* borders */
+  --ink-150: #EEE9E3;
+  --ink-100: #F4F0EB;   /* subtle fills */
+  --ink-50:  #FAF8F5;   /* page wash */
+  --white:   #FFFFFF;
+  --black:   #1A1715;
+
+  /* --- Ambient tints (soft background blobs / washes) --- */
+  --tint-lilac: #E9DCF2;
+  --tint-peach: #FBE3D6;
+  --tint-mint:  #D9EFE9;
+  --tint-sky:   #DCE8F2;
+  --tint-blush: #F7E2E6;
+
+  /* --- Metallic accent (rose-gold / copper, from logo + scene) --- */
+  --rosegold-300: #E7C3A8;
+  --rosegold-400: #D6A581;
+  --rosegold-500: #C28E68;
+
+  /* --- Semantic status --- */
+  --success-500: #4FA985;
+  --success-50:  #E7F4EE;
+  --warning-500: #E0A03A;
+  --warning-50:  #FBF1DE;
+  --danger-500:  #D96B5B;
+  --danger-50:   #FBE9E5;
+  --info-500:    #6E8FC9;
+  --info-50:     #E8EEF8;
+
+  /* ============================================================
+     SEMANTIC ALIASES — reference these in components
+     ============================================================ */
+
+  /* Brand */
+  --brand-coral: var(--coral-400);
+  --brand-lavender: var(--lavender-400);
+  --brand-gradient: linear-gradient(98deg, var(--coral-400) 0%, var(--lavender-400) 100%);
+  --brand-gradient-soft: linear-gradient(98deg, var(--coral-200) 0%, var(--lavender-200) 100%);
+  --brand-gradient-reverse: linear-gradient(98deg, var(--lavender-400) 0%, var(--coral-400) 100%);
+
+  /* Text */
+  --text-heading: var(--ink-900);
+  --text-body: var(--ink-500);
+  --text-muted: var(--ink-400);
+  --text-disabled: var(--ink-300);
+  --text-on-brand: var(--white);
+  --text-inverse: var(--white);
+  --text-link: var(--coral-600);
+
+  /* Surfaces */
+  --surface-page: var(--ink-50);
+  --surface-card: var(--white);
+  --surface-sunken: var(--ink-100);
+  --surface-inverse: var(--ink-900);
+
+  /* Borders & lines */
+  --border-subtle: var(--ink-200);
+  --border-strong: var(--ink-300);
+  --border-focus: var(--coral-400);
+
+  /* Frosted glass (see effects.css for blur) */
+  --glass-fill: rgba(255, 255, 255, 0.55);
+  --glass-fill-strong: rgba(255, 255, 255, 0.72);
+  --glass-fill-faint: rgba(255, 255, 255, 0.35);
+  --glass-stroke: rgba(255, 255, 255, 0.65);
+  --glass-stroke-inner: rgba(255, 255, 255, 0.9);
+  --glass-tint: linear-gradient(135deg, rgba(251,227,214,0.5) 0%, rgba(217,239,233,0.4) 50%, rgba(233,220,242,0.5) 100%);
+
+  /* Dark glass (the "Search by Mood" / primary chip) */
+  --glass-dark-fill: rgba(58, 53, 49, 0.78);
+  --glass-dark-stroke: rgba(255, 255, 255, 0.18);
+}
+
+
+/* ============================================================
+   LOOKIFY — TYPOGRAPHY TOKENS
+   Typeface: Urbanist (geometric sans). Avoid weights below 400.
+   Display is tight & bold; eyebrows are uppercase + tracked.
+   ============================================================ */
+
+:root {
+  /* --- Families --- */
+  --font-sans: "Urbanist", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Urbanist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", ui-monospace, monospace;
+
+  /* --- Weights (never go below 400 / 'Regular') --- */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* --- Fluid display + heading scale --- */
+  --text-display-2xl: clamp(3.25rem, 6vw, 5rem);   /* hero */
+  --text-display-xl:  clamp(2.5rem, 4.5vw, 3.75rem);
+  --text-display-lg:  clamp(2rem, 3.5vw, 2.75rem);
+  --text-h1: 2.25rem;   /* 36 */
+  --text-h2: 1.75rem;   /* 28 */
+  --text-h3: 1.375rem;  /* 22 */
+  --text-h4: 1.125rem;  /* 18 */
+  --text-body-lg: 1.125rem;  /* 18 */
+  --text-body: 1rem;         /* 16 */
+  --text-body-sm: 0.875rem;  /* 14 */
+  --text-caption: 0.8125rem; /* 13 */
+  --text-eyebrow: 0.75rem;   /* 12 — uppercase label */
+
+  /* --- Line heights --- */
+  --leading-tight: 1.05;
+  --leading-snug: 1.18;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* --- Letter spacing --- */
+  --tracking-tighter: -0.03em;  /* big display */
+  --tracking-tight: -0.015em;   /* headings */
+  --tracking-normal: 0em;
+  --tracking-wide: 0.04em;
+  --tracking-eyebrow: 0.22em;   /* uppercase eyebrows / nav */
+  --tracking-button: 0.08em;
+}
+
+/* --- Convenience text classes (optional, components prefer tokens) --- */
+.lk-eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--text-eyebrow);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--brand-coral);
+}
+
+.lk-display {
+  font-family: var(--font-display);
+  font-size: var(--text-display-2xl);
+  font-weight: var(--weight-extrabold);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tighter);
+  color: var(--text-heading);
+}
+
+.lk-gradient-text {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+/* ============================================================
+   LOOKIFY — SPACING & SIZING TOKENS
+   8px base rhythm with a few half-steps for tight UI.
+   ============================================================ */
+
+:root {
+  /* --- Spacing scale (8pt base) --- */
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4 */
+  --space-2: 0.5rem;    /* 8 */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-5: 1.5rem;    /* 24 */
+  --space-6: 2rem;      /* 32 */
+  --space-7: 2.5rem;    /* 40 */
+  --space-8: 3rem;      /* 48 */
+  --space-9: 4rem;      /* 64 */
+  --space-10: 5rem;     /* 80 */
+  --space-11: 6rem;     /* 96 */
+  --space-12: 8rem;     /* 128 */
+
+  /* --- Radii (soft, generous — the brand reads rounded & calm) --- */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+  --radius-pill: 999px;
+  --radius-card: var(--radius-xl);     /* default card */
+  --radius-glass: 28px;                /* frosted panels */
+  --radius-control: var(--radius-pill);/* buttons / chips are pills */
+  --radius-field: 14px;                /* inputs */
+
+  /* --- Control sizing --- */
+  --control-h-sm: 36px;
+  --control-h-md: 44px;   /* min touch target */
+  --control-h-lg: 56px;
+
+  /* --- Layout --- */
+  --container-max: 1200px;
+  --container-pad: clamp(1.25rem, 5vw, 4rem);
+  --widget-w: 380px;      /* try-on / search widget width */
+}
+
+
+/* ============================================================
+   LOOKIFY — EFFECTS: shadows, frosted glass, gradients, motion
+   Frosted glass = the signature depth accent. Used sparingly
+   on chrome/overlays, never on dense reading content.
+   ============================================================ */
+
+:root {
+  /* --- Soft, warm-tinted shadow system (low, diffuse) --- */
+  --shadow-xs: 0 1px 2px rgba(43, 39, 36, 0.05);
+  --shadow-sm: 0 2px 8px rgba(43, 39, 36, 0.06);
+  --shadow-md: 0 8px 24px rgba(43, 39, 36, 0.08);
+  --shadow-lg: 0 18px 48px rgba(43, 39, 36, 0.12);
+  --shadow-xl: 0 30px 70px rgba(43, 39, 36, 0.16);
+
+  /* Frosted panels cast a soft, slightly cool ambient shadow */
+  --shadow-glass: 0 24px 60px rgba(86, 64, 110, 0.16);
+
+  /* Coral glow for primary CTAs on hover */
+  --glow-coral: 0 10px 30px rgba(234, 142, 110, 0.35);
+  --glow-lavender: 0 10px 30px rgba(174, 139, 203, 0.32);
+
+  /* --- Glass blur amounts --- */
+  --blur-sm: 8px;
+  --blur-md: 18px;
+  --blur-lg: 28px;
+  --blur-xl: 40px;
+
+  /* --- Inner highlight stroke for glass (top-light) --- */
+  --glass-inner-highlight: inset 0 1px 0 rgba(255,255,255,0.7); /* @kind shadow */
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1); /* @kind other */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+  --dur-fast: 140ms; /* @kind other */
+  --dur-base: 240ms; /* @kind other */
+  --dur-slow: 420ms; /* @kind other */
+}
+
+/* ============================================================
+   GLASS UTILITIES — apply to chrome, overlays, widget shells
+   ============================================================ */
+
+.lk-glass {
+  background: var(--glass-fill);
+  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(140%);
+  backdrop-filter: blur(var(--blur-lg)) saturate(140%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-glass);
+  box-shadow: var(--shadow-glass), var(--glass-inner-highlight);
+}
+
+.lk-glass-strong {
+  background: var(--glass-fill-strong);
+  -webkit-backdrop-filter: blur(var(--blur-xl)) saturate(150%);
+  backdrop-filter: blur(var(--blur-xl)) saturate(150%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-glass);
+  box-shadow: var(--shadow-glass), var(--glass-inner-highlight);
+}
+
+.lk-glass-faint {
+  background: var(--glass-fill-faint);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(130%);
+  backdrop-filter: blur(var(--blur-md)) saturate(130%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-pill);
+}
+
+.lk-glass-dark {
+  background: var(--glass-dark-fill);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(140%);
+  backdrop-filter: blur(var(--blur-md)) saturate(140%);
+  border: 1px solid var(--glass-dark-stroke);
+  color: var(--white);
+}
+
+/* Aurora wash — the soft peach/lilac/mint ambient backdrop behind glass */
+.lk-aurora {
+  background:
+    radial-gradient(40% 50% at 12% 78%, rgba(233,220,242,0.85) 0%, rgba(233,220,242,0) 70%),
+    radial-gradient(45% 55% at 88% 22%, rgba(217,239,233,0.8) 0%, rgba(217,239,233,0) 70%),
+    radial-gradient(50% 60% at 78% 92%, rgba(251,227,214,0.85) 0%, rgba(251,227,214,0) 72%),
+    radial-gradient(40% 50% at 20% 12%, rgba(247,226,230,0.7) 0%, rgba(247,226,230,0) 70%),
+    var(--ink-50);
+}
+
+
+/* ============================================================
+   LOOKIFY DESIGN SYSTEM — global entry point.
+   Consumers link this one file. Keep it as @imports only.
+   ============================================================ */
+
+/* ============================================================
+   LOOKIFY — FONTS
+   Typeface: Urbanist (Google Fonts). Weights 400–800.
+   NOTE: substitution flag — these load from Google Fonts CDN.
+   If you have licensed Urbanist files, drop them in /assets/fonts
+   and replace this @import with local @font-face rules.
+   ============================================================ */
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/e6f17d59-b9fa-4a77-9d8c-9cd990ae2700.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f353cc74-4bfd-4270-ba9d-3895458be891.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/a4bfcce2-ccd6-4d1e-9bb6-d69234c57275.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/b7df43c7-46ab-4fdc-b969-ab1fe9fbbb97.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/8f15dd7d-9998-482f-a9d4-0c3d18787497.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f739ff32-d5ba-4350-be95-17517b2ab0b6.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/e6f17d59-b9fa-4a77-9d8c-9cd990ae2700.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f353cc74-4bfd-4270-ba9d-3895458be891.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/a4bfcce2-ccd6-4d1e-9bb6-d69234c57275.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/b7df43c7-46ab-4fdc-b969-ab1fe9fbbb97.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/8f15dd7d-9998-482f-a9d4-0c3d18787497.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f739ff32-d5ba-4350-be95-17517b2ab0b6.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/5bb5703e-5c12-48c3-92d0-a18e8257cf8d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/f8863f4b-a0b8-4875-bbd0-789b55566b27.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* ============================================================
+   LOOKIFY — COLOR TOKENS
+   Warm, luxe palette: peach-coral → lavender signature gradient,
+   warm near-black ink on soft warm neutrals.
+   ============================================================ */
+
+:root {
+  /* --- Brand: signature gradient endpoints --- */
+  --coral-50:  #FEF4EF;
+  --coral-100: #FCE5D9;
+  --coral-200: #F8CBB6;
+  --coral-300: #F4B095;
+  --coral-400: #F2A285;   /* hero "Luxury" — primary coral */
+  --coral-500: #EA8E6E;
+  --coral-600: #DE7855;
+  --coral-700: #C5613F;
+
+  --lavender-50:  #F6F1FA;
+  --lavender-100: #ECE2F3;
+  --lavender-200: #DCC9E9;
+  --lavender-300: #CBB0DE;
+  --lavender-400: #C2A4D9;   /* hero "Brands" — primary lavender */
+  --lavender-500: #AE8BCB;
+  --lavender-600: #9A73BC;
+  --lavender-700: #7F58A2;
+
+  /* --- Warm neutral ink ramp (text + structure) --- */
+  --ink-900: #2B2724;   /* headings — warm near-black */
+  --ink-800: #3A3531;
+  --ink-700: #4A443F;
+  --ink-600: #5E574F;
+  --ink-500: #6E6862;   /* body copy */
+  --ink-400: #948D86;   /* muted / captions */
+  --ink-300: #C4BDB6;   /* disabled text, hairlines */
+  --ink-200: #E4DED8;   /* borders */
+  --ink-150: #EEE9E3;
+  --ink-100: #F4F0EB;   /* subtle fills */
+  --ink-50:  #FAF8F5;   /* page wash */
+  --white:   #FFFFFF;
+  --black:   #1A1715;
+
+  /* --- Ambient tints (soft background blobs / washes) --- */
+  --tint-lilac: #E9DCF2;
+  --tint-peach: #FBE3D6;
+  --tint-mint:  #D9EFE9;
+  --tint-sky:   #DCE8F2;
+  --tint-blush: #F7E2E6;
+
+  /* --- Metallic accent (rose-gold / copper, from logo + scene) --- */
+  --rosegold-300: #E7C3A8;
+  --rosegold-400: #D6A581;
+  --rosegold-500: #C28E68;
+
+  /* --- Semantic status --- */
+  --success-500: #4FA985;
+  --success-50:  #E7F4EE;
+  --warning-500: #E0A03A;
+  --warning-50:  #FBF1DE;
+  --danger-500:  #D96B5B;
+  --danger-50:   #FBE9E5;
+  --info-500:    #6E8FC9;
+  --info-50:     #E8EEF8;
+
+  /* ============================================================
+     SEMANTIC ALIASES — reference these in components
+     ============================================================ */
+
+  /* Brand */
+  --brand-coral: var(--coral-400);
+  --brand-lavender: var(--lavender-400);
+  --brand-gradient: linear-gradient(98deg, var(--coral-400) 0%, var(--lavender-400) 100%);
+  --brand-gradient-soft: linear-gradient(98deg, var(--coral-200) 0%, var(--lavender-200) 100%);
+  --brand-gradient-reverse: linear-gradient(98deg, var(--lavender-400) 0%, var(--coral-400) 100%);
+
+  /* Text */
+  --text-heading: var(--ink-900);
+  --text-body: var(--ink-500);
+  --text-muted: var(--ink-400);
+  --text-disabled: var(--ink-300);
+  --text-on-brand: var(--white);
+  --text-inverse: var(--white);
+  --text-link: var(--coral-600);
+
+  /* Surfaces */
+  --surface-page: var(--ink-50);
+  --surface-card: var(--white);
+  --surface-sunken: var(--ink-100);
+  --surface-inverse: var(--ink-900);
+
+  /* Borders & lines */
+  --border-subtle: var(--ink-200);
+  --border-strong: var(--ink-300);
+  --border-focus: var(--coral-400);
+
+  /* Frosted glass (see effects.css for blur) */
+  --glass-fill: rgba(255, 255, 255, 0.55);
+  --glass-fill-strong: rgba(255, 255, 255, 0.72);
+  --glass-fill-faint: rgba(255, 255, 255, 0.35);
+  --glass-stroke: rgba(255, 255, 255, 0.65);
+  --glass-stroke-inner: rgba(255, 255, 255, 0.9);
+  --glass-tint: linear-gradient(135deg, rgba(251,227,214,0.5) 0%, rgba(217,239,233,0.4) 50%, rgba(233,220,242,0.5) 100%);
+
+  /* Dark glass (the "Search by Mood" / primary chip) */
+  --glass-dark-fill: rgba(58, 53, 49, 0.78);
+  --glass-dark-stroke: rgba(255, 255, 255, 0.18);
+}
+
+/* ============================================================
+   LOOKIFY — TYPOGRAPHY TOKENS
+   Typeface: Urbanist (geometric sans). Avoid weights below 400.
+   Display is tight & bold; eyebrows are uppercase + tracked.
+   ============================================================ */
+
+:root {
+  /* --- Families --- */
+  --font-sans: "Urbanist", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Urbanist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", ui-monospace, monospace;
+
+  /* --- Weights (never go below 400 / 'Regular') --- */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* --- Fluid display + heading scale --- */
+  --text-display-2xl: clamp(3.25rem, 6vw, 5rem);   /* hero */
+  --text-display-xl:  clamp(2.5rem, 4.5vw, 3.75rem);
+  --text-display-lg:  clamp(2rem, 3.5vw, 2.75rem);
+  --text-h1: 2.25rem;   /* 36 */
+  --text-h2: 1.75rem;   /* 28 */
+  --text-h3: 1.375rem;  /* 22 */
+  --text-h4: 1.125rem;  /* 18 */
+  --text-body-lg: 1.125rem;  /* 18 */
+  --text-body: 1rem;         /* 16 */
+  --text-body-sm: 0.875rem;  /* 14 */
+  --text-caption: 0.8125rem; /* 13 */
+  --text-eyebrow: 0.75rem;   /* 12 — uppercase label */
+
+  /* --- Line heights --- */
+  --leading-tight: 1.05;
+  --leading-snug: 1.18;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* --- Letter spacing --- */
+  --tracking-tighter: -0.03em;  /* big display */
+  --tracking-tight: -0.015em;   /* headings */
+  --tracking-normal: 0em;
+  --tracking-wide: 0.04em;
+  --tracking-eyebrow: 0.22em;   /* uppercase eyebrows / nav */
+  --tracking-button: 0.08em;
+}
+
+/* --- Convenience text classes (optional, components prefer tokens) --- */
+.lk-eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--text-eyebrow);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--brand-coral);
+}
+
+.lk-display {
+  font-family: var(--font-display);
+  font-size: var(--text-display-2xl);
+  font-weight: var(--weight-extrabold);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tighter);
+  color: var(--text-heading);
+}
+
+.lk-gradient-text {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* ============================================================
+   LOOKIFY — SPACING & SIZING TOKENS
+   8px base rhythm with a few half-steps for tight UI.
+   ============================================================ */
+
+:root {
+  /* --- Spacing scale (8pt base) --- */
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4 */
+  --space-2: 0.5rem;    /* 8 */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-5: 1.5rem;    /* 24 */
+  --space-6: 2rem;      /* 32 */
+  --space-7: 2.5rem;    /* 40 */
+  --space-8: 3rem;      /* 48 */
+  --space-9: 4rem;      /* 64 */
+  --space-10: 5rem;     /* 80 */
+  --space-11: 6rem;     /* 96 */
+  --space-12: 8rem;     /* 128 */
+
+  /* --- Radii (soft, generous — the brand reads rounded & calm) --- */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+  --radius-pill: 999px;
+  --radius-card: var(--radius-xl);     /* default card */
+  --radius-glass: 28px;                /* frosted panels */
+  --radius-control: var(--radius-pill);/* buttons / chips are pills */
+  --radius-field: 14px;                /* inputs */
+
+  /* --- Control sizing --- */
+  --control-h-sm: 36px;
+  --control-h-md: 44px;   /* min touch target */
+  --control-h-lg: 56px;
+
+  /* --- Layout --- */
+  --container-max: 1200px;
+  --container-pad: clamp(1.25rem, 5vw, 4rem);
+  --widget-w: 380px;      /* try-on / search widget width */
+}
+
+/* ============================================================
+   LOOKIFY — EFFECTS: shadows, frosted glass, gradients, motion
+   Frosted glass = the signature depth accent. Used sparingly
+   on chrome/overlays, never on dense reading content.
+   ============================================================ */
+
+:root {
+  /* --- Soft, warm-tinted shadow system (low, diffuse) --- */
+  --shadow-xs: 0 1px 2px rgba(43, 39, 36, 0.05);
+  --shadow-sm: 0 2px 8px rgba(43, 39, 36, 0.06);
+  --shadow-md: 0 8px 24px rgba(43, 39, 36, 0.08);
+  --shadow-lg: 0 18px 48px rgba(43, 39, 36, 0.12);
+  --shadow-xl: 0 30px 70px rgba(43, 39, 36, 0.16);
+
+  /* Frosted panels cast a soft, slightly cool ambient shadow */
+  --shadow-glass: 0 24px 60px rgba(86, 64, 110, 0.16);
+
+  /* Coral glow for primary CTAs on hover */
+  --glow-coral: 0 10px 30px rgba(234, 142, 110, 0.35);
+  --glow-lavender: 0 10px 30px rgba(174, 139, 203, 0.32);
+
+  /* --- Glass blur amounts --- */
+  --blur-sm: 8px;
+  --blur-md: 18px;
+  --blur-lg: 28px;
+  --blur-xl: 40px;
+
+  /* --- Inner highlight stroke for glass (top-light) --- */
+  --glass-inner-highlight: inset 0 1px 0 rgba(255,255,255,0.7); /* @kind shadow */
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1); /* @kind other */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+  --dur-fast: 140ms; /* @kind other */
+  --dur-base: 240ms; /* @kind other */
+  --dur-slow: 420ms; /* @kind other */
+}
+
+/* ============================================================
+   GLASS UTILITIES — apply to chrome, overlays, widget shells
+   ============================================================ */
+
+.lk-glass {
+  background: var(--glass-fill);
+  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(140%);
+  backdrop-filter: blur(var(--blur-lg)) saturate(140%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-glass);
+  box-shadow: var(--shadow-glass), var(--glass-inner-highlight);
+}
+
+.lk-glass-strong {
+  background: var(--glass-fill-strong);
+  -webkit-backdrop-filter: blur(var(--blur-xl)) saturate(150%);
+  backdrop-filter: blur(var(--blur-xl)) saturate(150%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-glass);
+  box-shadow: var(--shadow-glass), var(--glass-inner-highlight);
+}
+
+.lk-glass-faint {
+  background: var(--glass-fill-faint);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(130%);
+  backdrop-filter: blur(var(--blur-md)) saturate(130%);
+  border: 1px solid var(--glass-stroke);
+  border-radius: var(--radius-pill);
+}
+
+.lk-glass-dark {
+  background: var(--glass-dark-fill);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(140%);
+  backdrop-filter: blur(var(--blur-md)) saturate(140%);
+  border: 1px solid var(--glass-dark-stroke);
+  color: var(--white);
+}
+
+/* Aurora wash — the soft peach/lilac/mint ambient backdrop behind glass */
+.lk-aurora {
+  background:
+    radial-gradient(40% 50% at 12% 78%, rgba(233,220,242,0.85) 0%, rgba(233,220,242,0) 70%),
+    radial-gradient(45% 55% at 88% 22%, rgba(217,239,233,0.8) 0%, rgba(217,239,233,0) 70%),
+    radial-gradient(50% 60% at 78% 92%, rgba(251,227,214,0.85) 0%, rgba(251,227,214,0) 72%),
+    radial-gradient(40% 50% at 20% 12%, rgba(247,226,230,0.7) 0%, rgba(247,226,230,0) 70%),
+    var(--ink-50);
+}
+
+
+
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{background:#FAF8F5}
+    body{font-family:'Urbanist',system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:#2B2724}
+    img{display:block;max-width:100%}
+    ::selection{background:rgba(242,162,133,.28);color:#2B2724}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+    @keyframes floatHint{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    @keyframes ringPulse{0%,100%{opacity:.5;transform:translate(-50%,-50%) scale(1)}50%{opacity:.9;transform:translate(-50%,-50%) scale(1.08)}}
+    @keyframes sweepX{0%{left:-16%}100%{left:116%}}
+    @keyframes fillX{0%{width:0%}82%{width:100%}100%{width:100%}}
+    @keyframes curMove{0%{transform:translate(54px,60px)}50%{transform:translate(0,0)}58%{transform:translate(0,0) scale(.86)}66%{transform:translate(0,0) scale(1)}100%{transform:translate(0,0)}}
+    @keyframes tapPulse{0%,49%{opacity:0;transform:scale(.4)}58%{opacity:.6;transform:scale(1)}100%{opacity:0;transform:scale(2)}}
+    @keyframes popIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+    @keyframes softPulse{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes shimmer{0%,100%{opacity:.45}50%{opacity:.85}}
+    @keyframes mSheen{0%,100%{opacity:.5}50%{opacity:.9}}
+    /* ---------- responsive helpers ---------- */
+    .only-mobile{display:none}
+    .nav-burger{display:none}
+    @media(max-width:768px){
+      .only-desktop{display:none!important}
+      .only-mobile{display:block!important}
+      .nav-links-desktop{display:none!important}
+      .nav-burger{display:flex!important}
+      nav{padding:14px clamp(18px,5vw,28px)!important}
+      .showcase-row{flex-direction:column!important;align-items:center!important;gap:26px!important;margin-top:34px!important}
+      .showcase-slide{width:100%!important;min-width:0!important;max-width:330px}
+      .metric-card{padding:26px 16px!important}
+      .shopify-grid{gap:34px!important}
+      .shopify-pdp .pdp-body{padding:18px!important;gap:16px!important}
+      .sec-pad{padding-top:clamp(56px,9vh,80px)!important;padding-bottom:clamp(56px,9vh,80px)!important}
+      .pricing-grid{grid-template-columns:repeat(2,1fr)!important}
+    }
+    @media(max-width:480px){.pricing-grid{grid-template-columns:1fr!important}}
+  

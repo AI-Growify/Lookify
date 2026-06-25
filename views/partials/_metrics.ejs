@@ -1,0 +1,15 @@
+<section id="metrics" class="sec-pad" style="position:relative;padding:clamp(72px,10vh,120px) clamp(20px,5vw,64px);background:linear-gradient(180deg,#FAF8F5,#F1EBF6);overflow:hidden">
+    <div style="position:absolute;top:0;left:50%;width:70%;height:100%;transform:translateX(-50%);background:radial-gradient(50% 60% at 50% 40%,rgba(194,164,217,.4),transparent 72%);pointer-events:none"></div>
+    <div style="position:relative;max-width:1180px;margin:0 auto;text-align:center">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:#7F58A2"><%= metrics.eyebrow %></div>
+      <h2 style="font-weight:800;font-size:clamp(26px,3.6vw,46px);line-height:1.1;letter-spacing:-.02em;color:#2B2724;margin-top:14px;text-wrap:balance"><%= metrics.heading %></h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:clamp(16px,2vw,24px);margin-top:clamp(40px,6vh,60px)">
+        <% metrics.stats.forEach(function(stat) { %>
+        <div class="metric-card" style="padding:clamp(28px,3vw,44px) 20px;border:1px solid rgba(255,255,255,.6);border-radius:20px;background:linear-gradient(140deg,rgba(255,255,255,.58),rgba(255,255,255,.3));backdrop-filter:blur(20px) saturate(150%);-webkit-backdrop-filter:blur(20px) saturate(150%);box-shadow:0 14px 40px rgba(86,64,110,.1),inset 0 1px 0 rgba(255,255,255,.7);transition:transform .4s var(--ease-out),box-shadow .4s var(--ease-out)" style-hover="transform:translateY(-4px);box-shadow:0 0 0 1px rgba(91,200,189,.45),0 24px 56px rgba(86,64,110,.16)">
+          <div style="font-weight:800;font-size:clamp(38px,4.2vw,56px);line-height:1;color:#2B2724"><%= stat.value %><% if (stat.accent) { %><span style="background:linear-gradient(100deg,#EA8E6E,#9A73BC);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent"><%= stat.accent %></span><% } %></div>
+          <div style="font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#948D86;margin-top:14px"><%= stat.label %></div>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </section>

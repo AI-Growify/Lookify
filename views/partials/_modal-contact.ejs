@@ -1,0 +1,48 @@
+data-ref="cModal" style="position:fixed;inset:0;z-index:91;display:flex;align-items:center;justify-content:center;padding:clamp(14px,4vw,28px);opacity:0;visibility:hidden;transition:opacity .4s var(--ease-out),visibility .4s">
+    <div data-action="closeContactModal" style="position:absolute;inset:0;background:rgba(43,39,36,.34);backdrop-filter:blur(6px) saturate(120%);-webkit-backdrop-filter:blur(6px) saturate(120%)"></div>
+    <div data-ref="cPanel" role="dialog" aria-modal="true" aria-label="Get in touch" style="position:relative;width:100%;max-width:440px;max-height:92vh;overflow-y:auto;background:linear-gradient(152deg,rgba(255,255,255,.94),rgba(255,255,255,.8));border:1px solid rgba(255,255,255,.72);backdrop-filter:blur(32px) saturate(150%);-webkit-backdrop-filter:blur(32px) saturate(150%);border-radius:28px;box-shadow:0 44px 110px rgba(86,64,110,.28),inset 0 1px 0 rgba(255,255,255,.85);padding:clamp(22px,4vw,36px);transform:scale(.94) translateY(10px);opacity:0;transition:transform .45s var(--ease-out),opacity .4s var(--ease-out)">
+      <button data-action="closeContactModal" aria-label="Close" style="position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:1px solid rgba(150,141,134,.22);background:rgba(255,255,255,.6);display:flex;align-items:center;justify-content:center;cursor:pointer;color:#6E6862;font-size:18px;line-height:1;outline:none;transition:transform .3s var(--ease-out),background .3s,color .3s" style-hover="background:rgba(255,255,255,.9);color:#2B2724;transform:rotate(90deg)" style-active="transform:scale(.92)">×</button>
+
+      <div data-ref="cfForm" style="display:block">
+        <div style="font-size:10.5px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;background:linear-gradient(98deg,#C5613F,#7F58A2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent">Direct Line</div>
+        <h3 style="font-weight:800;font-size:clamp(20px,2.8vw,26px);line-height:1.1;letter-spacing:-.02em;color:#2B2724;margin-top:10px">Get in Touch</h3>
+        <p style="font-size:14px;font-weight:500;line-height:1.55;color:#5E574F;margin-top:8px;max-width:38ch">Have a question or want to discuss your store? We'd love to hear from you.</p>
+
+        <form style="margin-top:18px;display:flex;flex-direction:column;gap:11px">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <label style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A827B">Name</label>
+              <input data-ref="cfName" type="text" placeholder="Your name" style="font-family:'Urbanist',sans-serif;font-size:14.5px;font-weight:500;color:#2B2724;background:rgba(255,255,255,.72);border:1px solid #E6DFD8;border-radius:12px;padding:11px 13px;outline:none;width:100%;transition:border-color .3s,box-shadow .3s" style-focus="border-color:#D98A6E;box-shadow:0 0 0 3px rgba(217,138,110,.16)">
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <label style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A827B">Company</label>
+              <input data-ref="cfCompany" type="text" placeholder="Brand name" style="font-family:'Urbanist',sans-serif;font-size:14.5px;font-weight:500;color:#2B2724;background:rgba(255,255,255,.72);border:1px solid #E6DFD8;border-radius:12px;padding:11px 13px;outline:none;width:100%;transition:border-color .3s,box-shadow .3s" style-focus="border-color:#D98A6E;box-shadow:0 0 0 3px rgba(217,138,110,.16)">
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <label style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A827B">Email</label>
+            <input data-ref="cfEmail" type="email" placeholder="you@brand.com" style="font-family:'Urbanist',sans-serif;font-size:14.5px;font-weight:500;color:#2B2724;background:rgba(255,255,255,.72);border:1px solid #E6DFD8;border-radius:12px;padding:11px 13px;outline:none;width:100%;transition:border-color .3s,box-shadow .3s" style-focus="border-color:#D98A6E;box-shadow:0 0 0 3px rgba(217,138,110,.16)">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <label style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A827B">Phone Number</label>
+            <input data-ref="cfPhone" type="tel" placeholder="+91 98765 43210" style="font-family:'Urbanist',sans-serif;font-size:14.5px;font-weight:500;color:#2B2724;background:rgba(255,255,255,.72);border:1px solid #E6DFD8;border-radius:12px;padding:11px 13px;outline:none;width:100%;transition:border-color .3s,box-shadow .3s" style-focus="border-color:#D98A6E;box-shadow:0 0 0 3px rgba(217,138,110,.16)">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <label style="font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8A827B">Message</label>
+            <textarea data-ref="cfMsg" rows="3" placeholder="How can we help?" style="font-family:'Urbanist',sans-serif;font-size:14.5px;font-weight:500;color:#2B2724;background:rgba(255,255,255,.72);border:1px solid #E6DFD8;border-radius:12px;padding:11px 13px;outline:none;width:100%;resize:vertical;min-height:72px;transition:border-color .3s,box-shadow .3s" style-focus="border-color:#D98A6E;box-shadow:0 0 0 3px rgba(217,138,110,.16)"></textarea>
+          </div>
+          <div data-ref="cfErr" style="font-size:12px;font-weight:600;color:#C5613F;opacity:0;transition:opacity .3s;min-height:14px"></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button type="button" data-action="submitContactMsg" style="flex:1;font-family:'Urbanist',sans-serif;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:linear-gradient(98deg,#F2A285,#C2A4D9);border:none;border-radius:999px;padding:15px 24px;cursor:pointer;outline:none;box-shadow:0 10px 26px rgba(234,142,110,.28);transition:transform .4s var(--ease-out),box-shadow .4s var(--ease-out)" style-hover="transform:translateY(-2px);box-shadow:0 14px 32px rgba(234,142,110,.38)" style-active="transform:scale(.97)">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <div data-ref="cfSucc" style="display:none;text-align:center;padding:14px 6px 8px">
+        <div style="width:52px;height:52px;margin:0 auto;border-radius:50%;background:linear-gradient(135deg,rgba(242,162,133,.18),rgba(194,164,217,.18));border:1px solid rgba(242,162,133,.34);display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C5613F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"></path></svg></div>
+        <h3 style="font-weight:800;font-size:22px;letter-spacing:-.02em;color:#2B2724;margin-top:16px">Message sent</h3>
+        <p style="font-size:14px;font-weight:500;line-height:1.6;color:#5E574F;margin:8px auto 0;max-width:34ch">We'll be in touch shortly. You can also reach us on WhatsApp anytime.</p>
+        <button data-action="closeContactModal" style="margin-top:20px;font-family:'Urbanist',sans-serif;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:linear-gradient(98deg,#F2A285,#C2A4D9);border:none;border-radius:999px;padding:14px 32px;cursor:pointer;box-shadow:0 10px 24px rgba(234,142,110,.26);outline:none;transition:transform .4s var(--ease-out)" style-hover="transform:translateY(-2px)" style-active="transform:scale(.97)">Close</button>
+      </div>
+    </div>
+  </div>
