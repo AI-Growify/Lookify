@@ -2,6 +2,17 @@
   publish = "public"
   functions = "netlify/functions"
 
+[functions]
+  node_bundler = "nft"
+  included_files = [
+    "views/**",
+    "config/**",
+    "routes/**",
+    "controllers/**",
+    "models/**",
+    "public/**"
+  ]
+
 # Route everything that isn't a static file through the Express function
 [[redirects]]
   from = "/*"

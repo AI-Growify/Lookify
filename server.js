@@ -38,8 +38,11 @@ app.use((req, res) => {
 });
 
 // --- Start -----------------------------------------------------------------
-app.listen(config.port, () => {
-  console.log(`Lookify MVC running at http://localhost:${config.port} (${config.env})`);
-});
+// Only bind a port when run directly (not when imported by a serverless handler)
+if (require.main === module) {
+  app.listen(config.port, () => {
+    console.log(`Lookify MVC running at http://localhost:${config.port} (${config.env})`);
+  });
+}
 
 module.exports = app;
