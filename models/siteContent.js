@@ -98,7 +98,6 @@ const pricing = {
     features: [
       'Custom try-on volumes',
       'White-label solution',
-      'Dedicated account management',
       'Call support & custom integrations',
     ],
     cta: 'Talk to Sales',
