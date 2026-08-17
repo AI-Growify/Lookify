@@ -322,9 +322,10 @@
     post('/api/demo', {
       name: get('fName'), email: get('fEmail'),
       company: get('fCompany'), phone: get('fPhone'), message: get('fMsg')
-    }, function () {
+    }, function (res) {
       if (refs.formView) refs.formView.style.display = 'none';
       if (refs.successView) refs.successView.style.display = 'block';
+      if (res && res.ok) trackLead('Demo Request');
     });
   }
 
@@ -353,21 +354,28 @@
     post('/api/contact', {
       name: get('cfName'), company: get('cfCompany'),
       email: get('cfEmail'), phone: get('cfPhone'), message: get('cfMsg')
-    }, function () {
+    }, function (res) {
       if (refs.cfForm) refs.cfForm.style.display = 'none';
       if (refs.cfSucc) refs.cfSucc.style.display = 'block';
+      if (res && res.ok) trackLead('Contact');
     });
   }
 
-  // POST helper.
+  // POST helper. Hands the parsed response to onDone ({} when the request failed).
   function post(url, body, onDone) {
     fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
     }).then(function (r) { return r.json().catch(function () { return {}; }); })
-      .then(function () { onDone(); })
-      .catch(function () { onDone(); });
+      .then(function (res) { onDone(res || {}); })
+      .catch(function () { onDone({}); });
+  }
+
+  // Meta Pixel conversion. Silently no-ops when the pixel is blocked or absent.
+  function trackLead(formName) {
+    if (typeof window.fbq !== 'function') return;
+    window.fbq('track', 'Lead', { content_name: formName });
   }
 
   /* ---- 11. Action dispatch ----------------------------------------------- */
