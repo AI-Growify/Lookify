@@ -1166,6 +1166,30 @@
     /* ---------- responsive helpers ---------- */
     .only-mobile{display:none}
     .nav-burger{display:none}
+    /* ---------- WhatsApp Floating Button ---------- */
+    .whatsapp-float-btn {
+      position: fixed;
+      bottom: 90px;
+      right: 28px;
+      z-index: 80;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, .40);
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+    .whatsapp-float-btn:hover {
+      transform: translateY(-3px) scale(1.07);
+      box-shadow: 0 14px 32px rgba(37, 211, 102, .50);
+    }
+    .whatsapp-float-btn:active {
+      transform: scale(.95);
+    }
+
     @media(max-width:768px){
       .only-desktop{display:none!important}
       .only-mobile{display:block!important}
@@ -1179,6 +1203,9 @@
       .shopify-pdp .pdp-body{padding:18px!important;gap:16px!important}
       .sec-pad{padding-top:clamp(56px,9vh,80px)!important;padding-bottom:clamp(56px,9vh,80px)!important}
       .pricing-grid{grid-template-columns:repeat(2,1fr)!important}
+      .whatsapp-float-btn{bottom:24px;right:20px}
     }
+    @media(max-width:480px){.pricing-grid{grid-template-columns:1fr!important}}
+
     @media(max-width:480px){.pricing-grid{grid-template-columns:1fr!important}}
   
