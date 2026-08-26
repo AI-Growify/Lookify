@@ -17,4 +17,25 @@ function home(req, res) {
   });
 }
 
-module.exports = { home };
+/** GET /privacy-policy -> Privacy Policy page. */
+function privacyPolicy(req, res) {
+  res.render('privacy-policy', {
+    ...content,
+    title: `Privacy Policy — ${content.brand.name}`,
+  });
+}
+
+/** GET /terms-of-service -> Terms of Service page. */
+function termsOfService(req, res) {
+  res.render('terms-of-service', {
+    ...content,
+    title: `Merchant Terms of Service — ${content.brand.name}`,
+  });
+}
+
+module.exports = {
+  home,
+  privacyPolicy,
+  termsOfService,
+};
+

@@ -22,10 +22,10 @@ const brand = {
 /** Primary navigation — rendered in both the desktop bar and the mobile menu. */
 const nav = {
   links: [
-    { label: 'Home', href: '#top' },
-    { label: 'How It Works', href: '#how' },
-    { label: 'Our Partners', href: '#about' },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'Home', href: '/#top' },
+    { label: 'How It Works', href: '/#how' },
+    { label: 'Our Partners', href: '/#about' },
+    { label: 'Pricing', href: '/#pricing' },
   ],
   cta: { label: 'Book a Demo', action: 'openModal' },
 };
@@ -142,7 +142,8 @@ const forms = {
 
 const footer = {
   links: [
-    { label: 'Privacy Policy', href: 'https://growify.in/pages/privacy-policy' },
+    { label: 'Privacy Policy', href: '/privacy-policy' },
+    { label: 'Terms of Service', href: '/terms-of-service' },
     { label: 'Contact', action: 'openContactModal' },
   ],
 };
