@@ -12,6 +12,11 @@ const leadController = require('../controllers/leadController');
 
 // Pages
 router.get('/', pageController.home);
+router.get('/privacy-policy', pageController.privacyPolicy);
+router.get('/privacy', pageController.privacyPolicy);
+router.get('/terms-of-service', pageController.termsOfService);
+router.get('/terms', pageController.termsOfService);
+router.get('/terms-and-conditions', pageController.termsOfService);
 
 // Lead-capture API (consumed by the on-page modal forms via fetch)
 router.post('/api/demo', leadController.demo);
