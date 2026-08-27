@@ -25,11 +25,11 @@ function privacyPolicy(req, res) {
   });
 }
 
-/** GET /terms-of-use -> Website Terms of Use page. */
+/** GET /terms-of-use -> Terms & Conditions page. */
 function termsOfUse(req, res) {
   res.render('terms-of-service', {
     ...content,
-    title: `Website Terms of Use — ${content.brand.name}`,
+    title: `Terms & Conditions — ${content.brand.name}`,
   });
 }
 
