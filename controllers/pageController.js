@@ -25,17 +25,27 @@ function privacyPolicy(req, res) {
   });
 }
 
-/** GET /terms-of-service -> Terms of Service page. */
-function termsOfService(req, res) {
+/** GET /terms-of-use -> Website Terms of Use page. */
+function termsOfUse(req, res) {
   res.render('terms-of-service', {
     ...content,
-    title: `Merchant Terms of Service — ${content.brand.name}`,
+    title: `Website Terms of Use — ${content.brand.name}`,
+  });
+}
+
+/** GET /refund-policy -> Refund and Cancellation Policy page. */
+function refundPolicy(req, res) {
+  res.render('refund-policy', {
+    ...content,
+    title: `Refund & Cancellation Policy — ${content.brand.name}`,
   });
 }
 
 module.exports = {
   home,
   privacyPolicy,
-  termsOfService,
+  termsOfService: termsOfUse,
+  termsOfUse,
+  refundPolicy,
 };
 

@@ -143,7 +143,8 @@ const forms = {
 const footer = {
   links: [
     { label: 'Privacy Policy', href: '/privacy-policy' },
-    { label: 'Terms of Service', href: '/terms-of-service' },
+    { label: 'Website Terms of Use', href: '/terms-of-use' },
+    { label: 'Refund & Cancellation', href: '/refund-policy' },
     { label: 'Contact', action: 'openContactModal' },
   ],
 };
